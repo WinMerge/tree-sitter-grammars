@@ -424,5 +424,23 @@ foreach ($entry in $config.grammars) {
     Write-Host ""
 }
 
+# ---- Custom SCM override ----
+$CustomQueriesDir = Join-Path $ScriptDir "custom_queries"
+
+if (Test-Path $CustomQueriesDir) {
+    Write-Host "--- Applying custom SCM files ---"
+    
+    # Get all .scm files from the custom folder and overwrite them in $OutDir
+    Get-ChildItem -Path $CustomQueriesDir -Filter "*.scm" | ForEach-Object {
+        $dest = Join-Path $OutDir $_.Name
+        if (Test-Path $dest) {
+            Copy-Item -Path $_.FullName -Destination $dest -Force
+            Write-Host "  Overwritten: $($_.Name) -> $dest"
+        } else {
+            Write-Warning "  File $($_.Name) not found in $OutDir, skipping."
+        }
+    }
+}
+
 Write-Host "=== Done: $succeeded succeeded, $failed failed, $skipped skipped ==="
 if ($failed -gt 0) { exit 1 }
