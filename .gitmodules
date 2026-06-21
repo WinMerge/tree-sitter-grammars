@@ -49,3 +49,9 @@
 [submodule "tree-sitter-xml"]
 	path = tree-sitter-xml
 	url = https://github.com/tree-sitter-grammars/tree-sitter-xml
+[submodule "tree-sitter-markdown"]
+	path = tree-sitter-markdown
+	url = https://github.com/tree-sitter-grammars/tree-sitter-markdown
+[submodule "tree-sitter-yaml"]
+	path = tree-sitter-yaml
+	url = https://github.com/tree-sitter-grammars/tree-sitter-yaml
