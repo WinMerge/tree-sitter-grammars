@@ -1,6 +1,6 @@
 cd /d "%~dp0"
 
-set VERSION=0.1.3
+set VERSION=0.1.4
 set DISTDIR=.\Dist
 set path="%ProgramFiles%\7-zip";"%ProgramFiles(x86)%\7-zip";%path%
 
