@@ -55,3 +55,12 @@
 [submodule "tree-sitter-yaml"]
 	path = tree-sitter-yaml
 	url = https://github.com/tree-sitter-grammars/tree-sitter-yaml
+[submodule "tree-sitter-toml"]
+	path = tree-sitter-toml
+	url = https://github.com/tree-sitter-grammars/tree-sitter-toml
+[submodule "tree-sitter-properties"]
+	path = tree-sitter-properties
+	url = https://github.com/tree-sitter-grammars/tree-sitter-properties
+[submodule "tree-sitter-ini"]
+	path = tree-sitter-ini
+	url = https://github.com/justinmk/tree-sitter-ini
