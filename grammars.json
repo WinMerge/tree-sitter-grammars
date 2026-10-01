@@ -1,6 +1,6 @@
 {
   "grammars": [
-    { "repo": "ionide/tree-sitter-fsharp",                   "tag": "0.3.1"   },
+    { "repo": "ionide/tree-sitter-fsharp",                   "tag": "0.3.12"  },
     { "repo": "justinmk/tree-sitter-ini",                    "tag": "v1.4.0"   },
     { "repo": "tree-sitter-grammars/tree-sitter-markdown",   "tag": "v0.5.3"  },
     { "repo": "tree-sitter-grammars/tree-sitter-properties", "tag": "v0.3.0"  },
@@ -17,7 +17,7 @@
     { "repo": "tree-sitter/tree-sitter-javascript",          "tag": "v0.25.0" },
     { "repo": "tree-sitter/tree-sitter-java",                "tag": "v0.23.5" },
     { "repo": "tree-sitter/tree-sitter-json",                "tag": "v0.24.8" },
-    { "repo": "tree-sitter/tree-sitter-php",                 "tag": "v0.24.2" },
+    { "repo": "tree-sitter/tree-sitter-php",                 "tag": "v0.25.0" },
     { "repo": "tree-sitter/tree-sitter-python",              "tag": "v0.25.0" },
     { "repo": "tree-sitter/tree-sitter-ruby",                "tag": "v0.23.1" },
     { "repo": "tree-sitter/tree-sitter-rust",                "tag": "v0.24.2" },
